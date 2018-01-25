@@ -1,0 +1,25 @@
+.form-vales input{
+	margin-top: 10px;
+}
+
+label{
+	margin-top: 4px;
+}
+
+.sex{
+	margin-top: 5px;
+}
+
+.btn-danger{
+	cursor: pointer;
+}
+
+button{
+	margin-top: 10px!important;
+	cursor: pointer;
+}
+
+.alert{
+	margin-top: 10px;
+	display: none;
+}
