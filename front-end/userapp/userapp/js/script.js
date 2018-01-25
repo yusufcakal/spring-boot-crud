@@ -73,7 +73,7 @@ $(document).ready(function(){
     var age = $("#age");
 
     age.keypress(function(key){
-        if(key.charCode > 48 && key.charCode < 57){ // Girilen değer sayı ise
+        if(key.charCode > 48 && key.charCode < 57){
             if(age.val().length < 3){
                 return true;
             }else{
@@ -82,7 +82,7 @@ $(document).ready(function(){
             }
         }else{
             alertUsing("Sayı Giriniz.", false);
-            return false; // input'a girilmesine izin verme.
+            return false;
         }
     });
 
